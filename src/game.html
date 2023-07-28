@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>CSE5911 Capstone Game Page</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script>var exports = {};</script>
+        
+        <script src="shaders.js"></script>
+        <script src="objloader.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gl-matrix@3.0.0/gl-matrix-min.js"></script>
+        <script src="model.js"></script>
+        <script src="transform.js"></script>
+        <script src="build/postprocess.js"></script>
+        <script src="build/rendering.js"></script>
+        <script src="build/input.js"></script>
+        <script src="build/audio.js"></script>
+        <script src="build/yozora.js"></script>
+        <script src="build/main.js"></script>
+    </head>
+
+    <body onload="start()">
+        <div class="container">
+            <canvas id="main-canvas">
+                Your browser doesn't support HTML5!
+            </canvas>
+            <canvas id="text"></canvas>
+        </div>
+    </body>
+</html>

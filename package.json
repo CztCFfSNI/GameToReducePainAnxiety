@@ -1,0 +1,30 @@
+{
+  "name": "capstone-cse5911",
+  "version": "0.1.0",
+  "description": "Game to Reduce Anxiety & Pain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://capstone-cse5911-2023@dev.azure.com/capstone-cse5911-2023/Capstone-CSE5911/_git/Capstone-CSE5911"
+  },
+  "keywords": [
+    "typescript",
+    "webgl",
+    "game"
+  ],
+  "author": "Group",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.3",
+    "http-server": "^14.1.1",
+    "is": "^3.3.0",
+    "webgl-obj-loader": "^2.0.8"
+  }
+}
